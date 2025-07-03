@@ -41,17 +41,11 @@ run_command() {
     fi
 }
 
+logo="
+
 # Display the requested ASCII logo
 display_logo() {
-    echo -e "${CYAN}"
-    echo -e " _______ _  _             _           _      _           "
-    echo -e "(_______) |(_)           | |         (_)    | |          "
-    echo -e " _______| | _ _____ ____ | |  _  ____ _  ___| |__  ____  "
-    echo -e "|  ___  | || | ___ |  _ \| |_/ )/ ___) |/___)  _ \|  _ \ "
-    echo -e "| |   | | || | ____| | | |  _ (| |   | |___ | | | | | | |"
-    echo -e "|_|   |_|\_)_|_____)_| |_|_| \_)_|   |_(___/|_| |_|_| |_|\n"
-    echo -e "${MAGENTA}                   Repository Installer ${RESET}"
-    echo -e ""
+    echo -e "${logo}"
 }
 
 # Main script execution
