@@ -41,11 +41,21 @@ run_command() {
     fi
 }
 
-logo="
 
 # Display the requested ASCII logo
 display_logo() {
-    echo -e "${logo}"
+    printf "
+     ${RED}
+     
+██╗  ██╗ ██████╗ ██████╗     
+██║  ██║██╔════╝██╔═══██╗    
+███████║██║     ██║   ██║    
+██╔══██║██║     ██║   ██║    
+██║  ██║╚██████╗╚██████╔╝    
+╚═╝  ╚═╝ ╚═════╝ ╚═════╝     
+                             ${RESET}
+"
+echo -e "${GREEN}Repository Downloader${RESET}"
 }
 
 # Main script execution
