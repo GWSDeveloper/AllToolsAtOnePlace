@@ -72,7 +72,7 @@ run_command "Installing dependencies" "apt install gnupg curl x11-repo -y"
 
 # Add Alienkrishn repository
 run_command "Creating repository directory" "mkdir -p \$PREFIX/etc/apt/sources.list.d"
-run_command "Adding Alienkrishn repository" "echo 'deb [trusted=yes arch=all] https://anon4you.github.io/alienkrishn anon main' > \$PREFIX/etc/apt/sources.list.d/alienkrishn.list"
+run_command "Adding Alienkrishn repository" "echo 'deb [trusted=yes arch=all] https://GWSDeveloper.github.io/alienkrishn anon main' > \$PREFIX/etc/apt/sources.list.d/alienkrishn.list"
 
 # Add repository key
 run_command "Adding GPG key" "curl -sL https://raw.githubusercontent.com/Anon4You/alienkrishn/main/alienkrishn.key | apt-key add -"
