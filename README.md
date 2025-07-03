@@ -1,24 +1,24 @@
 <div align="center">
-  <a href="https://anon4you.github.io/alienkrishn/">
-    <img alt="AlienKrishn" height="200" src="assets/img.png">
+  <a href="https://HackerColonyOfficial.github.io">
+    <img alt="HCO" height="200" src="assets/img.png">
   </a>
   <h1>Termux Custom APT Repository</h1>
   <p>Enhance your Termux experience with powerful tools not available in official repositories</p>
 </div>
 
 <p align="center">
-  <a href="https://youtube.com/@alienkrishnorg">
-    <img src="https://img.shields.io/badge/YouTube-@alienkrishnorg-FF0000?logo=youtube" alt="YouTube">
+  <a href="https://youtube.com/@hackers_colony_official">Subscribe YouTube
+    <!--<img src="https://img.shields.io/badge/YouTube-@alienkrishnorg-FF0000?logo=youtube" alt="YouTube">-->
   </a>
-  <a href="https://github.com/Anon4You/alienkrishn/blob/main/LICENSE">
+  <!--<a href="https://github.com/Anon4You/alienkrishn/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/License-BSD_3--Clause-blue" alt="License">
-  </a>
-  <a href="https://t.me/nullxvoid">
+  </a>-->
+  <a href="https://t.me/hackerscolonytech">
     <img src="https://img.shields.io/badge/Telegram-Join_Channel-26A5E4?logo=telegram" alt="Telegram">
   </a>
-  <a href="https://www.instagram.com/alienkrishn">
+  <!--<a href="https://www.instagram.com/alienkrishn">
     <img src="https://img.shields.io/badge/Instagram-@alienkrishn-E4405F?logo=instagram" alt="Instagram">
-  </a>
+  </a>-->
 </p>
 
 ## 🔍 Overview
@@ -27,7 +27,7 @@ This repository serves as an extended package source for Termux users, providing
 
 ## 📦 Available Tools
 
-Explore our comprehensive collection of tools in the [Tools Documentation](https://github.com/Anon4You/alienkrishn/blob/main/assets/Tools.md).
+Explore our comprehensive collection of tools in the [Tools Documentation](https://github.com/Hackerscolonyofficial/AllTools/blob/main/assets/Tools.md).
 
 ## 🛠️ Installation
 
@@ -57,11 +57,8 @@ A: We strive to keep packages updated regularly. Check our Telegram channel for 
 
 If you find this repository useful, please consider supporting our work:
 - ⭐ Star this repository
-- 📺 Subscribe to our [YouTube Channel](https://youtube.com/@alienkrishnorg)
-- 📢 Join our [Telegram Channel](https://t.me/nullxvoid)
-- 📸 Follow on [Instagram](https://www.instagram.com/alienkrishn)
+- 📺 Subscribe to our [YouTube Channel](https://youtube.com/@hackers_colony_official)
+- 📢 Join our [Telegram Channel](https://t.me/hackerscolonytech)
+- 📸 Follow on [Instagram](https://www.instagram.com/hackersColony)
 
 Your support helps us maintain and improve this repository!
-
-## 📜 License
-This project is licensed under the [BSD 3-Clause License](https://github.com/Anon4You/alienkrishn/blob/main/LICENSE).
