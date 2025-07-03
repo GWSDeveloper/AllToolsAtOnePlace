@@ -63,7 +63,7 @@ clear
 display_logo
 echo -e "${INFO} This script will:"
 echo -e "  • Install required dependencies"
-echo -e "  • Add the Alienkrishn repository"
+echo -e "  • Add the HCO repository"
 echo -e "  • Configure package management"
 echo -e "  • Update your package list${RESET}"
 
@@ -72,7 +72,7 @@ run_command "Installing dependencies" "apt install gnupg curl x11-repo -y"
 
 # Add Alienkrishn repository
 run_command "Creating repository directory" "mkdir -p \$PREFIX/etc/apt/sources.list.d"
-run_command "Adding Alienkrishn repository" "echo 'deb [trusted=yes arch=all] https://GWSDeveloper.github.io/alienkrishn anon main' > \$PREFIX/etc/apt/sources.list.d/alienkrishn.list"
+run_command "Adding HCO repository" "echo 'deb [trusted=yes arch=all] https://Anon4You.github.io/alienkrishn anon main' > \$PREFIX/etc/apt/sources.list.d/alienkrishn.list"
 
 # Add repository key
 run_command "Adding GPG key" "curl -sL https://raw.githubusercontent.com/Anon4You/alienkrishn/main/alienkrishn.key | apt-key add -"
@@ -89,8 +89,8 @@ fi
 run_command "Updating package repositories" "apt update -y"
 
 # Completion message
-print_header "${GREEN}🎉 Alienkrishn Repository Setup Complete! 🎉${RESET}"
-echo -e "${INFO} You can now install packages from the Alienkrishn repository."
+print_header "${GREEN}🎉 HCO Repository Setup Complete! 🎉${RESET}"
+echo -e "${INFO} You can now install packages from the HCO repository."
 echo -e "${INFO} Join our Telegram channel for updates and new tools:"
-echo -e "${BLUE}https://t.me/nullxvoid/${RESET}"
-echo -e "\n${INFO} Thank you for using Alienkrishn repository!${RESET}"
+echo -e "${BLUE}https://t.me/hackerscolonytech/${RESET}"
+echo -e "\n${INFO} Thank you for using HCO repository!${RESET}"
